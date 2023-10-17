@@ -19,4 +19,15 @@ export type LogProps = {
   }
 }
 
+export type measurement = {
+  device: string;
+  accuracy: string;
+};
+
+export type handleOnLoadProps = {
+  temperature: measurement[];
+  humidity: measurement[];
+  monoxide: measurement[];
+};
+
 
